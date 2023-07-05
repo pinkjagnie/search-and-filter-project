@@ -1,83 +1,82 @@
 {
-    "products": [
-      {
-        "id": 1,
-        "title": "embroidered tablecloth",
-        "description": "embroidered tablecloth with a folk motif",
-        "price": 54,
-        "discountPercentage": 0,
-        "rating": 4.69,
-        "stock": 1,
-        "owner_id": 21,
-        "tags": ["tablecloth", "folk"],
-        "thumbnail": "thumb1",
-        "images": ["img1", "img2", "img3"]
-      },
-      {
-        "id": 1,
-        "title": "embroidered tablecloth with lace",
-        "description": "embroidered tablecloth with a folk motif with lace",
-        "price": 54,
-        "discountPercentage": 0,
-        "rating": 4.69,
-        "stock": 1,
-        "owner_id": 21,
-        "tags": ["tablecloth", "folk", "lace"],
-        "thumbnail": "thumb1",
-        "images": ["img1", "img2", "img3"]
-      },
-      {
-        "id": 2,
-        "title": "folk bracelet",
-        "description": "folk bracelet handmade",
-        "price": 54,
-        "discountPercentage": 0,
-        "rating": 4.69,
-        "stock": 1,
-        "owner_id": 21,
-        "tags": ["tablecloth", "folk", "bracelet"],
-        "thumbnail": "thumb1",
-        "images": ["img1", "img2", "img3"]
-      },
-      {
-        "id": 1,
-        "title": "embroidered tablecloth",
-        "description": "embroidered tablecloth with a folk motif",
-        "price": 54,
-        "discountPercentage": 0,
-        "rating": 4.69,
-        "stock": 1,
-        "owner_id": 21,
-        "tags": ["tablecloth", "folk"],
-        "thumbnail": "thumb1",
-        "images": ["img1", "img2", "img3"]
-      },
-      {
-        "id": 1,
-        "title": "embroidered tablecloth",
-        "description": "embroidered tablecloth with a folk motif",
-        "price": 54,
-        "discountPercentage": 0,
-        "rating": 4.69,
-        "stock": 1,
-        "owner_id": 21,
-        "tags": ["tablecloth", "folk"],
-        "thumbnail": "thumb1",
-        "images": ["img1", "img2", "img3"]
-      },
-      {
-        "id": 1,
-        "title": "embroidered tablecloth",
-        "description": "embroidered tablecloth with a folk motif",
-        "price": 54,
-        "discountPercentage": 0,
-        "rating": 4.69,
-        "stock": 1,
-        "owner_id": 21,
-        "tags": ["tablecloth", "folk"],
-        "thumbnail": "thumb1",
-        "images": ["img1", "img2", "img3"]
-      }
-    ]
+  "products": [
+    {
+      "id": 1,
+      "title": "embroidered tablecloth",
+      "description": "embroidered tablecloth with a folk motif",
+      "price": 54,
+      "discountPercentage": 0,
+      "rating": 4.69,
+      "stock": 1,
+      "owner_id": 21,
+      "tags": ["tablecloth", "folk"],
+      "thumbnail": "thumb1",
+      "images": ["img1", "img2", "img3"]
+    },
+    {
+      "id": 1,
+      "title": "embroidered tablecloth with lace",
+      "description": "embroidered tablecloth with a folk motif with lace",
+      "price": 54,
+      "discountPercentage": 0,
+      "rating": 4.69,
+      "stock": 1,
+      "owner_id": 21,
+      "tags": ["tablecloth", "folk", "lace"],
+      "thumbnail": "thumb1",
+      "images": ["img1", "img2", "img3"]
+    },
+    {
+      "id": 2,
+      "title": "folk bracelet",
+      "description": "folk bracelet handmade",
+      "price": 54,
+      "discountPercentage": 0,
+      "rating": 4.69,
+      "stock": 1,
+      "owner_id": 21,
+      "tags": ["tablecloth", "folk", "bracelet"],
+      "thumbnail": "thumb1",
+      "images": ["img1", "img2", "img3"]
+    },
+    {
+      "id": 1,
+      "title": "embroidered tablecloth",
+      "description": "embroidered tablecloth with a folk motif",
+      "price": 54,
+      "discountPercentage": 0,
+      "rating": 4.69,
+      "stock": 1,
+      "owner_id": 21,
+      "tags": ["tablecloth", "folk"],
+      "thumbnail": "thumb1",
+      "images": ["img1", "img2", "img3"]
+    },
+    {
+      "id": 1,
+      "title": "embroidered tablecloth",
+      "description": "embroidered tablecloth with a folk motif",
+      "price": 54,
+      "discountPercentage": 0,
+      "rating": 4.69,
+      "stock": 1,
+      "owner_id": 21,
+      "tags": ["tablecloth", "folk"],
+      "thumbnail": "thumb1",
+      "images": ["img1", "img2", "img3"]
+    },
+    {
+      "id": 1,
+      "title": "embroidered tablecloth",
+      "description": "embroidered tablecloth with a folk motif",
+      "price": 54,
+      "discountPercentage": 0,
+      "rating": 4.69,
+      "stock": 1,
+      "owner_id": 21,
+      "tags": ["tablecloth", "folk"],
+      "thumbnail": "thumb1",
+      "images": ["img1", "img2", "img3"]
+    }
+  ]
 }
-      
