@@ -4,7 +4,7 @@ import DetailsProduct from "@/components/DetailsProduct";
 
 const productDetailsPage = (props) => {
   return (
-    <section className="pt-24 pb-10 w-[95%] mx-auto lg:w-[80%]">
+    <section className="pt-32 pb-10 w-[95%] mx-auto lg:w-[80%] min-h-screen">
       <DetailsProduct product={props.singleProduct} />
     </section>
   );
