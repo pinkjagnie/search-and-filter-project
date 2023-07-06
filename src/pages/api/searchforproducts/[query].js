@@ -14,9 +14,9 @@ export default async function handler(req, res) {
 
   const products = await Handmade.find({
     $or: [
-      { title: query_to_find },
-      { description: query_to_find },
-      { tags: query_to_find },
+      { title: { $regex: query_to_find, $options: "i" } },
+      { description: { $regex: query_to_find, $options: "i" } },
+      { tags: { $regex: query_to_find, $options: "i" } },
     ],
   }).exec();
 
