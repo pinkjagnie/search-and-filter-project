@@ -16,7 +16,7 @@ export async function getServerSideProps(context) {
   const { params } = context;
   const { slug } = params;
 
-  let url = `http://localhost:3001/api/getSingleProduct/${slug}`;
+  let url = `http://localhost:3000/api/getSingleProduct/${slug}`;
 
   let res = await fetch(url, {
     headers: {
