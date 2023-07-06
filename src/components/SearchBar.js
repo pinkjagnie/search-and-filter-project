@@ -5,7 +5,7 @@ import SingleProduct from "./SingleProduct";
 
 import { SlMagnifier } from "react-icons/sl";
 
-const SearchBar = ({ products }) => {
+const SearchBar = () => {
   const searchRef = useRef();
   const [filteredData, setFilteredData] = useState([]);
 
@@ -16,6 +16,8 @@ const SearchBar = ({ products }) => {
     console.log(query);
 
     searchFilteredProducts(query);
+
+    searchRef.current.value = "";
   };
 
   const searchFilteredProducts = (query) => {
@@ -50,10 +52,25 @@ const SearchBar = ({ products }) => {
           </button>
         </div>
       </div>
-      {filteredData &&
-        filteredData.map((product) => {
-          return <SingleProduct key={product.id} product={product} />;
-        })}
+      <div className="pt-12">
+        {filteredData.length === 0 && searchRef !== "" ? (
+          <p className="text-center font-bold text-xl pb-6">
+            Sorry, there are no results
+          </p>
+        ) : (
+          <p className="text-center font-bold text-xl pb-6">
+            There are {filteredData.length} results that match what you are
+            looking for
+          </p>
+        )}
+        {filteredData && (
+          <div className="w-[90%] mx-auto grid grid-cols-2 gap-2 min-[600px]:grid-cols-3 lg:grid-cols-4 pb-10">
+            {filteredData.map((product) => {
+              return <SingleProduct key={product.id} product={product} />;
+            })}
+          </div>
+        )}
+      </div>
     </>
   );
 };
