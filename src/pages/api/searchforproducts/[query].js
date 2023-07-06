@@ -13,7 +13,11 @@ export default async function handler(req, res) {
   await connectToDatabase();
 
   const products = await Handmade.find({
-    $or: [{ title: query_to_find }, { description: query_to_find }],
+    $or: [
+      { title: query_to_find },
+      { description: query_to_find },
+      { tags: query_to_find },
+    ],
   }).exec();
 
   console.log("produkty z api " + products);
